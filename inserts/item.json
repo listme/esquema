@@ -1,0 +1,18 @@
+[
+  {
+    "type": "text",
+    "data": "Hello world"
+  },
+  {
+    "type": "text",
+    "data": "Goodbye dad"
+  },
+  {
+    "type": "text",
+    "data": "DRY: Don't repeat yourself"
+  },
+  {
+    "type": "list",
+    "items": [1,2,3]
+  }
+]
