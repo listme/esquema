@@ -1,10 +1,11 @@
 var fs = require('fs');
-var rows;
 
-rows = JSON.parse(fs.readFileSync(__dirname + '/inserts/item.json', 
-                                  { encoding: 'utf8' }));
+var file = __dirname + '/inserts/item.json';
 
-rows.forEach(function (elem, i) {
-//  console.log('rows[' + i + ']: ' + JSON.stringify(elem));
-  console.log("insert into item values ('" + JSON.stringify(elem) + "');");
+fs.readFile(file, { encoding: 'utf8' }, function (err, data) {
+  if (err) { return; }
+
+  JSON.parse(data).forEach(function (elem) {
+    console.log("insert into item values ('" + JSON.stringify(elem) + "');");
+  });
 });
