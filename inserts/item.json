@@ -16,17 +16,17 @@
     "items": [1,2,3]
   },
   {
-	  "type": "url",
-	  "tag": "Google",
-	  "link": "www.google.com"
+    "type": "url",
+    "tag": "Google",
+    "link": "www.google.com"
   },
   {
-	  "type": "url",
-	  "tag": "Ayuntamiento BCN",
-	  "link": "www.bcn.cat"
+    "type": "url",
+    "tag": "Ayuntamiento BCN",
+    "link": "www.bcn.cat"
   },
   {
-	  "type": "list",
-	  "items": [5,6]
+    "type": "list",
+    "items": [5,6]
   }
 ]
