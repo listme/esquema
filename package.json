@@ -1,0 +1,9 @@
+{
+  "name": "esquema",
+  "version": "0.1.0",
+  "description": "Gestión entrada de datos",
+
+  "dependencies": {
+    "sqlite": "*"
+  }
+}
